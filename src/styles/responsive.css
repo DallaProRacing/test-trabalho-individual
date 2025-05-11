@@ -1,0 +1,95 @@
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: var(--font-size-5xl);
+    }
+    
+    .hero-text p {
+        font-size: var(--font-size-lg);
+    }
+    
+    .welcome-text {
+        font-size: var(--font-size-xl) !important;
+    }
+    
+    .competitions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .sponsors-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .pilot-card {
+        flex-direction: column;
+    }
+    
+    .pilot-image {
+        width: 100%;
+        height: 320px;
+    }
+    
+    .pilot-info {
+        width: 100%;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: var(--font-size-4xl);
+    }
+    
+    .hero-text p {
+        font-size: var(--font-size-base);
+    }
+    
+    .welcome-text {
+        font-size: var(--font-size-lg) !important;
+    }
+    
+    section h2 {
+        font-size: var(--font-size-3xl);
+    }
+    
+    .competitions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+    .hero {
+        height: 90vh;
+    }
+    
+    .hero h1 {
+        font-size: var(--font-size-3xl);
+    }
+    
+    .sponsors-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pilot-details {
+        grid-template-columns: 1fr;
+    }
+}
