@@ -286,3 +286,69 @@ section h2 {
 .sponsor-link:hover {
     color: var(--color-red-dark);
 }
+
+/* Pilot Section */
+.pilot {
+    background-color: var(--color-gray-900);
+}
+
+.pilot-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+    display: flex;
+}
+
+.pilot-image {
+    width: 33.333%;
+    position: relative;
+}
+
+.pilot-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pilot-info {
+    width: 66.666%;
+    padding: var(--spacing-6);
+}
+
+.pilot-info h3 {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-3);
+}
+
+.pilot-info > p {
+    margin-bottom: var(--spacing-4);
+}
+
+.pilot-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-4);
+    margin-top: var(--spacing-6);
+}
+
+.detail h4 {
+    font-weight: 600;
+    margin-bottom: var(--spacing-1);
+}
+
+.profile-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-red);
+    font-weight: 600;
+    margin-top: var(--spacing-6);
+    transition: color var(--transition-normal);
+}
+
+.profile-link:hover {
+    color: var(--color-red-dark);
+}
