@@ -1,0 +1,224 @@
+/* Competition Details CSS */
+
+/* Back Button */
+.back-button-container {
+    margin-bottom: var(--spacing-8);
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-gray-400);
+    font-weight: 600;
+    transition: color var(--transition-normal);
+}
+
+.back-button:hover {
+    color: var(--color-red);
+}
+
+/* Competition Header */
+.competition-header {
+    text-align: center;
+    margin-bottom: var(--spacing-12);
+}
+
+.category-badge {
+    display: inline-block;
+    background-color: var(--color-orange);
+    color: var(--color-black);
+    font-weight: 700;
+    padding: var(--spacing-1) var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+    font-size: var(--font-size-sm);
+}
+
+.competition-header h1 {
+    font-size: var(--font-size-5xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-4);
+}
+
+.competition-description {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--color-gray-300);
+    font-size: var(--font-size-lg);
+}
+
+/* Results Section */
+.results-section {
+    margin-bottom: var(--spacing-16);
+}
+
+.results-section h2, 
+.championship-standings h2, 
+.next-events h2 {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-8);
+    text-align: left;
+}
+
+.result-card {
+    background-color: var(--color-gray-900);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    margin-bottom: var(--spacing-8);
+    box-shadow: var(--shadow-md);
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: var(--spacing-6);
+    border-bottom: 1px solid var(--color-gray-800);
+}
+
+.result-header h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-2);
+}
+
+.result-date {
+    color: var(--color-gray-400);
+    font-size: var(--font-size-sm);
+}
+
+.result-position {
+    text-align: right;
+}
+
+.position {
+    display: block;
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    color: var(--color-red);
+    margin-bottom: var(--spacing-1);
+}
+
+.category, .overall {
+    display: block;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-400);
+}
+
+.result-content {
+    padding: var(--spacing-6);
+    border-bottom: 1px solid var(--color-gray-800);
+}
+
+.result-gallery {
+    padding: var(--spacing-6);
+}
+
+.result-gallery h4 {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--spacing-4);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-4);
+    width: 100%;
+}
+
+.gallery-item {
+    height: 400px;
+    
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-photo {
+    background-color: var(--color-gray-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color var(--transition-normal);
+}
+
+.add-photo:hover {
+    background-color: var(--color-gray-700);
+}
+
+.add-photo-content {
+    text-align: center;
+    color: var(--color-gray-400);
+}
+
+.plus-icon {
+    display: block;
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--spacing-1);
+}
+
+
+/* Next Events */
+.next-events {
+    margin-bottom: var(--spacing-16);
+}
+
+.events-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-6);
+}
+
+.event-item {
+    background-color: var(--color-gray-900);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    display: flex;
+    box-shadow: var(--shadow-md);
+}
+
+.event-date {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: var(--spacing-4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+}
+
+.day {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.month {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.event-info {
+    padding: var(--spacing-4);
+}
+
+.event-info h3 {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    margin-bottom: var(--spacing-2);
+}
+
+.event-info p {
+    color: var(--color-gray-400);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-1);
+}
+
