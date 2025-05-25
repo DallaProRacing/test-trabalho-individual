@@ -222,3 +222,92 @@
     margin-bottom: var(--spacing-1);
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .events-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .competition-header h1 {
+        font-size: var(--font-size-3xl);
+    }
+
+    .competition-description {
+        font-size: var(--font-size-base);
+        padding: 0 var(--spacing-4);
+    }
+
+    .result-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .result-position {
+        text-align: left;
+        margin-top: var(--spacing-2);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .event-item {
+        flex-direction: column;
+    }
+
+    .event-date {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: var(--spacing-3);
+        min-width: auto;
+    }
+
+    .event-info {
+        padding: var(--spacing-3);
+    }
+
+    .result-content,
+    .result-gallery {
+        padding: var(--spacing-4);
+    }
+}
+
+@media (max-width: 480px) {
+    .competition-header h1 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .result-header h3 {
+        font-size: var(--font-size-lg);
+    }
+
+    .result-date {
+        font-size: var(--font-size-xs);
+    }
+
+    .position {
+        font-size: var(--font-size-2xl);
+    }
+
+    .plus-icon {
+        font-size: var(--font-size-xl);
+    }
+
+    .event-info h3 {
+        font-size: var(--font-size-base);
+    }
+
+    .event-info p {
+        font-size: var(--font-size-xs);
+    }
+}
