@@ -262,30 +262,7 @@
                 <p>&copy; 2025 Equipe DallaPro Racing. Todos os direitos reservados.</p>
             </div>
         </div>
-    </footer>
-
-    <!-- JavaScript para as abas de resultados -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const tabs = document.querySelectorAll('.results-tabs .tab');
-            const contents = document.querySelectorAll('.results-content');
-            
-            tabs.forEach(tab => {
-                tab.addEventListener('click', () => {
-                    // Remove active class from all tabs and contents
-                    tabs.forEach(t => t.classList.remove('active'));
-                    contents.forEach(c => c.classList.remove('active'));
-                    
-                    // Add active class to clicked tab
-                    tab.classList.add('active');
-                    
-                    // Show corresponding content
-                    const tabId = tab.getAttribute('data-tab');
-                    document.getElementById(`${tabId}-content`).classList.add('active');
-                });
-            });
-        });
-    </script>
+    </footer>    
     
     <!-- Script do formulário de contato -->
     <script src="./src/assets/js/contact-form.js"></script>
