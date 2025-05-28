@@ -1,120 +1,217 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/epI9d33H)
-# Trabalho Individual (T1) - Desenvolvimento de Portfólio Pessoal
+# 🏍️ Equipe DallaPro Racing - Site Oficial
 
-### 📅 Prazo de Entrega
+Site oficial da Equipe DallaPro Racing, especializada em competições de Enduro FIM. O projeto apresenta informações sobre a equipe, piloto, competições e patrocinadores.
 
-- **Entrega Parcial:** _26 de maio de 2025_
-- **Entrega Final e Apresentação:** _30 de junho de 2025_
+## 🌐 Demo
 
----
+**Site ao vivo:** [https://dallaproracing.github.io/test-trabalho-individual/]
+## 📋 Funcionalidades
 
-## Objetivo
+### 🏠 Página Principal
+- **Hero Section** com apresentação da equipe
+- **Competições** - Cards informativos sobre as principais competições
+- **Próximas Etapas** - Calendário de eventos futuros
+- **Patrocinadores** - Showcase dos apoiadores da equipe
+- **Perfil do Piloto** - Informações sobre Ruan Dalla Rosa
+- **Formulário de Contato** - Sistema de envio de emails via EmailJS
 
-O objetivo deste trabalho é que o aluno desenvolva um **portfólio pessoal** aplicando conceitos fundamentais de desenvolvimento web. A proposta é que o portfólio seja um reflexo da identidade do aluno, destacando suas habilidades, projetos e trajetórias profissionais, além de ser uma oportunidade de consolidar os conhecimentos adquiridos em aula.
+### 👤 Página de Perfil do Piloto
+- **Informações Pessoais** - Biografia e dados do piloto
+- **Estatísticas** - Números de provas, pódios e campeonatos
+- **Resultados por Competição** - Sistema de abas com resultados detalhados
+- **Galeria de Fotos** - Imagens das competições
+- **Equipamentos** - Detalhes da moto e equipamentos utilizados
+- **Redes Sociais** - Links para Instagram e outras plataformas
 
----
+### 🏆 Páginas de Competições
+- **Gaúcho de Enduro FIM** - Resultados e classificações
+- **Sul Brasileiro de Enduro FIM** - Histórico de participações
+- **Copa Meio Oeste** - Detalhes das etapas
+- **Galeria de Fotos** - Sistema de upload e visualização
+- **Classificação Geral** - Tabelas de pontuação
 
-## Requisitos Técnicos
+### 📧 Sistema de Contato
+- **Validação de Formulário** - Verificação de campos obrigatórios
+- **Envio via EmailJS** - Sistema sem backend para envio de emails
+- **Feedback Visual** - Notificações de sucesso/erro
+- **Responsividade** - Funciona em todos os dispositivos
 
-O portfólio deve ser desenvolvido utilizando os seguintes conceitos e tecnologias:
+## 🛠️ Tecnologias Utilizadas
 
-1. **HTML (Linguagem de Marcação)**
-    - Estruture o conteúdo do portfólio com **HTML5**.
-    - Inclua elementos semânticos para melhorar acessibilidade e SEO.
+### Frontend
+- **HTML5** - Estrutura semântica
+- **CSS3** - Estilização avançada com:
+  - CSS Grid e Flexbox
+  - Variáveis CSS (Custom Properties)
+  - Animações e transições
+  - Design responsivo
+- **JavaScript ES6+** - Interatividade e funcionalidades:
+  - Manipulação do DOM
+  - Validação de formulários
+  - Sistema de abas
+  - Integração com EmailJS
 
-2. **CSS (Folhas de Estilo)**
-    - Utilize **CSS3** para estilizar o portfólio, aplicando **boas práticas de design responsivo**.
-    - É permitido (e recomendado) o uso de **frameworks e bibliotecas modernas**, como:
-      - **Tailwind CSS** – Utilitário moderno baseado em classes.
-      - **Foundation** – Responsivo e acessível, ótimo para protótipos rápidos.
-      - **Bootstrap** – Estrutura clássica com componentes prontos.
-      - **Bulma** – Simples, leve e baseado em Flexbox.
-      - **Material Design (MUI, Materialize)** – Baseado nas diretrizes do Google.
-      - **Ant Design** – Robusto e corporativo, usado em dashboards e sistemas.
-      - **Styled Components** / **Emotion** – CSS em JavaScript para projetos React.
-      - **SASS/SCSS** – Pré-processadores que adicionam poder ao CSS puro.
+### Serviços Externos
+- **EmailJS** - Envio de emails sem backend
+- **Font Awesome** - Ícones
+- **Google Fonts** - Tipografia
 
-    > 💡 Escolha ferramentas que se alinhem com os objetivos e escopo do seu projeto. A consistência visual e a manutenibilidade são tão importantes quanto o visual.
+### Ferramentas de Desenvolvimento
+- **Git** - Controle de versão
+- **GitHub Pages** - Hospedagem gratuita
+- **VS Code** - Editor de código
 
+## 📁 Estrutura do Projeto
 
-3. **JavaScript (Programação Front-End)**
-    - Adicione interatividade ao portfólio utilizando **JavaScript** ou **TypeScript**.
-    - Exemplos de interatividade: animações, sliders, modais, entre outros.
+```
+# 🏍️ Equipe DallaPro Racing - Site Oficial
 
-4. **Publicação no GitHub Pages**
-    - O portfólio deve ser publicado na plataforma **GitHub Pages**.
-    - Certifique-se de configurar corretamente o repositório para disponibilizar a página.
+Site oficial da Equipe DallaPro Racing, especializada em competições de Enduro FIM. O projeto apresenta informações sobre a equipe, piloto, competições e patrocinadores.
 
----
+## 🌐 Demo
 
-## Estrutura Recomendada
+**Site ao vivo:** [https://dallaproracing.github.io/test-trabalho-individual/]
 
-O portfólio deve conter as seguintes seções:
+## 📋 Funcionalidades
 
-1. **Página Inicial (Home)**
-   - Uma introdução breve com uma mensagem de boas-vindas.
-   - Foto ou avatar do aluno.
-   - Links para as principais seções do portfólio.
+### 🏠 Página Principal (index.html)
+- **Hero Section** com apresentação da equipe
+- **Competições** - Cards informativos sobre as principais competições
+- **Próximas Etapas** - Calendário de eventos futuros
+- **Patrocinadores** - Showcase dos apoiadores da equipe
+- **Perfil do Piloto** - Informações sobre Ruan Dalla Rosa
+- **Formulário de Contato** - Sistema de envio de emails via EmailJS
 
-2. **Sobre Mim (About)**
-   - Informações sobre o aluno, como formação, interesses e habilidades.
-   - Utilize uma estrutura visual clara para destacar as informações.
+### 👤 Página de Perfil do Piloto (perfil.html)
+- **Informações Pessoais** - Biografia e dados do piloto
+- **Estatísticas** - Números de provas, pódios e campeonatos
+- **Resultados por Competição** - Sistema de abas com resultados detalhados
+- **Galeria de Fotos** - Imagens das competições
+- **Equipamentos** - Detalhes da moto e equipamentos utilizados
+- **Redes Sociais** - Links para Instagram e outras plataformas
 
-3. **Projetos (Projects)**
-   - Exiba os projetos desenvolvidos, com título, descrição e links para repositórios no GitHub ou demonstrações.
-   - Utilize cards ou grids para organizar visualmente os projetos.
+### 🏆 Páginas de Competições
+- **gaucho-enduro.html** - Gaúcho de Enduro FIM - Resultados e classificações
+- **sul-brasileiro.html** - Sul Brasileiro de Enduro FIM - Histórico de participações
+- **copa-meio-oeste.html** - Copa Meio Oeste - Detalhes das etapas
+- **Galeria de Fotos** - Sistema de upload e visualização
+- **Classificação Geral** - Tabelas de pontuação
 
-4. **Experiência (Experience)** *(Opcional)*
-   - Lista de experiências profissionais ou acadêmicas relevantes.
-   - Inclua informações como cargos, empresas/instituições e períodos.
+### 📧 Sistema de Contato
+- **Validação de Formulário** - Verificação de campos obrigatórios
+- **Envio via EmailJS** - Sistema sem backend para envio de emails
+- **Feedback Visual** - Notificações de sucesso/erro
+- **Responsividade** - Funciona em todos os dispositivos
 
-5. **Contato (Contact)**
-   - Formulário funcional para envio de mensagens (nome, e-mail e mensagem).
-   - Links para redes sociais e e-mail.
+## 🛠️ Tecnologias Utilizadas
 
----
+### Frontend
+- **HTML5** - Estrutura semântica
+- **CSS3** - Estilização avançada com:
+  - CSS Grid e Flexbox
+  - Variáveis CSS (Custom Properties)
+  - Animações e transições
+  - Design responsivo
+- **JavaScript ES6+** - Interatividade e funcionalidades:
+  - Manipulação do DOM
+  - Validação de formulários
+  - Sistema de abas
+  - Integração com EmailJS
 
-## Funcionalidades Adicionais (Opcional)
+### Serviços Externos
+- **EmailJS** - Envio de emails sem backend
+- **Font Awesome** - Ícones
+- **Google Fonts** - Tipografia
 
-Para enriquecer o portfólio, é incentivado implementar algumas das seguintes funcionalidades:
+### Ferramentas de Desenvolvimento
+- **Git** - Controle de versão
+- **GitHub Pages** - Hospedagem gratuita
+- **VS Code** - Editor de código
 
-- **Tema Escuro/Claro (Dark/Light Mode):** Opção para alternar entre temas de cores.
-- **Animações:** Adicione animações sutilmente, como ao carregar elementos ou ao passar o mouse.
-- **Blog:** Uma seção de blog para compartilhar artigos ou reflexões sobre tecnologia.
-- **Certificados:** Uma galeria com certificados ou diplomas.
-- **Download de Currículo:** Botão para baixar um PDF do currículo.
+## 📁 Estrutura do Projeto
 
----
+```
+equipe-dallapro-racing/
+├── src/
+│   ├── assets/                   # Pasta principal de recursos
+│   │   ├── fonts/               # Fontes customizadas
+│   │   ├── images/              # Todas as imagens do projeto
+│   │   │   ├── image-copa/      # Imagens da Copa Meio Oeste
+│   │   │   ├── image-gaucho/    # Imagens do Gaúcho de Enduro
+│   │   │   ├── image-sul/       # Imagens do Sul Brasileiro
+│   │   │   ├── competition-placeholder-CopaMeio.jpg
+│   │   │   ├── competition-placeholder-Gaucho.jpg
+│   │   │   ├── competition-placeholder.jpg
+│   │   │   ├── hero-placeholder.jpg
+│   │   │   ├── hero-placeholder1.jpg
+│   │   │   ├── hero-placeholder2.jpg
+│   │   │   ├── hero-placeholder3.jpg
+│   │   │   ├── logo-placeholder.png
+│   │   │   ├── pilot-placeholder.jpg
+│   │   │   ├── sponsor-placeholder-AutoCenter.png
+│   │   │   ├── sponsor-placeholder-EletroBarra.png
+│   │   │   ├── sponsor-placeholder-FazendaDallaRosa.png
+│   │   │   ├── sponsor-placeholder-FornaRacing.png
+│   │   │   ├── sponsor-placeholder-Minella.png
+│   │   │   ├── sponsor-placeholder-Posto.png
+│   │   │   ├── sponsor-placeholder-Prefeitura.png
+│   │   │   ├── sponsor-placeholder-studio.png
+│   │   │   └── sponsor-placeholder.png
+│   │   └── js/
+│   │       └── contact-form.js  # Script do formulário de contato
+│   ├── styles/                  # Arquivos CSS
+│   │   ├── competition-details.css  # Estilos das páginas de competição
+│   │   ├── contact-form.css     # Estilos do formulário
+│   │   ├── fonts.css            # Importação de fontes
+│   │   ├── main.css             # Estilos principais
+│   │   ├── profile.css          # Estilos da página de perfil
+│   │   ├── reset.css            # Reset CSS
+│   │   ├── responsive.css       # Media queries
+│   │   └── root.css             # Variáveis CSS
+│   ├── index.html               # Página principal
+│   ├── perfil.html              # Página do piloto
+│   ├── gaucho-enduro.html       # Página Gaúcho de Enduro FIM
+│   ├── sul-brasileiro.html      # Página Sul Brasileiro de Enduro FIM
+│   └── copa-meio-oeste.html     # Página Copa Meio Oeste
+├── .gitignore                   # Arquivos ignorados pelo Git
+├── LICENSE                      # Licença do projeto
+└── README.md                    # Documentação
+```
 
-## Critérios de Avaliação
+## 🚀 Como Executar o Projeto
 
-A avaliação será baseada nos seguintes critérios:
+### Pré-requisitos
+- Navegador web moderno
+- Conexão com a internet (para fontes e EmailJS)
 
-- **Estrutura e Organização do Código:** 20%
-- **Estilo e Responsividade do Design:** 20%
-- **Funcionalidade e Interatividade:** 20%
-- **Originalidade e Criatividade:** 20%
-- **Publicação e Documentação:** 20%
+### Instalação Local
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/uri-erechim/trabalho-individual-t1-DallaProRacing.git
+   cd equipe-dallapro-racing
+   ```
 
----
+2. **Abra o projeto:**
+   - Abra o arquivo `src/index.html` em seu navegador
+   - Ou use um servidor local como Live Server (VS Code)
 
-## Requisitos de Entrega
+### Configuração do EmailJS
+Para que o formulário de contato funcione, você precisa configurar o EmailJS:
 
-1. **Repositório no GitHub**
-    - O repositório deve conter o código organizado e bem documentado.
-    - Adicione um arquivo `README.md` explicando as funcionalidades do portfólio e como ele foi desenvolvido.
+1. **Crie uma conta em [EmailJS](https://www.emailjs.com/)**
 
-2. **Link do GitHub Pages**
-    - Certifique-se de que o site está publicado e acessível através do GitHub Pages.
-    - Inclua o link no `README.md`.
+2. **Configure um serviço de email (Gmail recomendado)**
 
----
+3. **Crie um template de email com as variáveis:**
+   - `{{from_name}}` - Nome do remetente
+   - `{{from_email}}` - Email do remetente
+   - `{{message}}` - Mensagem
+   - `{{to_email}}` - Email de destino
 
-## Dicas do Professor
+4. **Obtenha suas credenciais:**
+   - Public Key (Account → General)
+   - Service ID (Email Services)
+   - Template ID (Email Templates)
 
-- **Planejamento:** Antes de começar a codificar, desenhe o layout e defina as seções do portfólio.
-- **Acessibilidade:** Pense em como tornar o portfólio acessível para todos os usuários (exemplo: uso de texto alternativo em imagens).
-- **Testes:** Verifique a compatibilidade em diferentes dispositivos e navegadores.
-- **Inspiração:** Consulte outros portfólios online para ideias, mas lembre-se de criar algo único e pessoal.
-
-Aproveite esta oportunidade para criar algo que possa ser utilizado em sua carreira profissional e boa sorte!
+5. **Atualize o arquivo `src/assets/js/contact-form.js`:**
+   \
